@@ -1,0 +1,2 @@
+# helloc
+c language learn.
