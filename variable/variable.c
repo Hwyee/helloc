@@ -63,6 +63,10 @@ int main() {
     printf("JACK:%d\n",JACK);
     printf("LIKE:%d\n",LIKE);
     printf("KUNKA:%d\n",KUNKA);
+    enum Name ALL;
+    int SS;
+    printf("ALL:%d\n",ALL);//未初始化的变量，相当于打印了一个随机值
+    printf("SS:%d\n",SS);
 
     return 0;
 }

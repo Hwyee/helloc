@@ -23,7 +23,9 @@ int main(){
      * %f:浮点类型float
      * %lf:浮点类型double
      * %s:字符串
-     * %u:十进制无符号
+     * %u:十进制无符号 无符号 int
+     * %lu:无符号 long
+     * %llu:无符号 long long
      * %p:指针
      *
      */
