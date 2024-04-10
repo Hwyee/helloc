@@ -6,6 +6,8 @@
 #include "Windows.h"
 /**
  * Hello World!
+ * int main(void) 或者int main()标识main函数不接受参数。
+ * void main()被认为是不标准的写法。可能报错。
  * @return int 函数的返回值类型。
  */
 int main(){
