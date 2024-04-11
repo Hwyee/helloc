@@ -51,5 +51,26 @@ int main() {
         printf("!0 = %d\n", !0);
         break;
     }
+
+    //99乘法表
+    for (int l = 1; l <= 9; ++l) {
+        for (int m = 1; m <= l ; ++m) {
+            printf("%d ",l*m);
+        }
+        printf("\n");
+    }
+
+    /**
+     * goto
+     * 实现无条件的语句转移
+     * goto label;
+     * 少用goto,完全可以替换成其他方式。
+     */
+    i_am_label:
+    goto label2;
+    goto i_am_label;
+    label2:
+    printf("label2\n");
+
     return 0;
 }
