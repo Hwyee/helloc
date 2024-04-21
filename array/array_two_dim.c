@@ -25,7 +25,7 @@ int main() {
     }
     //获取地址2
     printf("arr1:%p\n", arr1[0]);
-    printf("arr1:%p\n", arr1[0] + 1);
+    printf("arr1:%p\n", arr1[0] + 1);//移动一个数据类型单位，4个字节
     printf("arr1:%p\n", arr1[0] + 2);
     printf("arr1:%p\n", arr1[0] + 3);
     printf("arr1:%p\n", arr1[1]);//与arr1[0]+2的值相等，线性存储
