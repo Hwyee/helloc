@@ -1,8 +1,12 @@
+#指定所需的 CMake 的最低版本
 cmake_minimum_required(VERSION 3.27)
+# 指定项目名称
 project(helloc C)
 
+# 设置变量的值
 set(CMAKE_C_STANDARD 99)
 
+# 添加可执行文件并指定源文件
 add_executable(testc helloc/testc.c)
 add_executable(main main.c)
 add_executable(variable variable/variable.c)
@@ -22,3 +26,16 @@ add_executable(pointer_wild point/pointer_wild.c)
 add_executable(point_two_level point/point_two_level.c)
 add_executable(point_array point/point_array.c)
 add_executable(point_char point/point_char.c)
+add_executable(function_concept function/function_concept.c)
+add_executable(function_main function/function_main.c)
+add_executable(function_prototype function/function_prototype.c)
+add_executable(function_variable_args function/function_variable_args.c)
+add_executable(function_point function/function_point.c)
+add_executable(function_func_point function/function_func_point.c)
+add_executable(function_call_back function/function_call_back.c)
+add_executable(function_static_extern function/function_static_extern.c
+        function/function_static.c
+        function/function_extern.c)
+add_executable(variable_local_global variable/variable_local_global.c)
+add_executable(variable_register variable/variable_register.c)
+add_executable(variable_const variable/variable_const.c)
