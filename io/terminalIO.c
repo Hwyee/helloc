@@ -33,7 +33,8 @@ int main(){
     puts(str);
 
     char str1[11];
-    gets(str1);//获取用户输入,保存再str1中
+    //获取用户输入,保存再str1中
+    gets(str1);
     puts(str1);
 
     return 0;
